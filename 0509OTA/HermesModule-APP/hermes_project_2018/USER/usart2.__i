@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I.\PM2.5\usart2 -I.\RTLWIFI\Common -I.\RTLWIFI\SysTick -I.\RTLWIFI\ESP8266 -I.\led -I.\Key -I.\adc -I..\SYSTEM\delay
+-I C:\Users\Administrator\Desktop\HermesM\hermes_project_2018\USER\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o .\usart2.o --omf_browse .\usart2.crf --depend .\usart2.d "PM2.5\usart2\usart2.c"
