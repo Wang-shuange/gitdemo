@@ -1,5 +1,2 @@
-wang 
-qing
-chris
-marshal
-wafafa
+git status use
+wangshuange
