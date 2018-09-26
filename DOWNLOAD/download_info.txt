@@ -1,0 +1,34 @@
+Connecting 				 [OK] 
+Configuring 				 [OK] 
+[Set Dtr line] 				 [OK] 
+[Set Rts line] 				 [OK] 
+
+ ERASING ... 
+erasing all pages 				 [OK] 
+
+ DOWNLOADING ... 
+
+downloading 	 page 0 	 @0x  8000000 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 1 	 @0x  8000800 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 2 	 @0x  8001000 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 3 	 @0x  8001800 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 4 	 @0x  8002000 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 5 	 @0x  8002800 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 6 	 @0x  8003000 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 7 	 @0x  8003800 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 8 	 @0x  8004000 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 9 	 @0x  8004800 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 10 	 @0x  8005000 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 11 	 @0x  8005800 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 12 	 @0x  8006000 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 13 	 @0x  8006800 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 14 	 @0x  8007000 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 15 	 @0x  8007800 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 16 	 @0x  8008000 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 17 	 @0x  8008800 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 18 	 @0x  8009000 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 19 	 @0x  8009800 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 20 	 @0x  800A000 	 size 2.00(KB) 	 [OK] 
+downloading 	 page 21 	 @0x  800A800 	 size 1.50(KB) 	 [OK] 
+
+ Press any key to continue ...
