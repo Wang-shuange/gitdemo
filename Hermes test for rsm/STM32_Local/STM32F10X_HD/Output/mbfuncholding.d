@@ -1,0 +1,12 @@
+..\output\mbfuncholding.o: ..\Src\modbus\functions\mbfuncholding.c
+..\output\mbfuncholding.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\output\mbfuncholding.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\output\mbfuncholding.o: ..\Src\modbus\port\port.h
+..\output\mbfuncholding.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\output\mbfuncholding.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\output\mbfuncholding.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\mbfuncholding.o: ..\Src\modbus\include\mb.h
+..\output\mbfuncholding.o: ..\Src\modbus\include\mbport.h
+..\output\mbfuncholding.o: ..\Src\modbus\include\mbproto.h
+..\output\mbfuncholding.o: ..\Src\modbus\include\mbframe.h
+..\output\mbfuncholding.o: ..\Src\modbus\include\mbconfig.h

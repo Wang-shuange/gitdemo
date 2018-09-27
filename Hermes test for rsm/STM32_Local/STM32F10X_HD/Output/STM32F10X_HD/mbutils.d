@@ -1,0 +1,10 @@
+..\output\stm32f10x_hd\mbutils.o: ..\Src\modbus\functions\mbutils.c
+..\output\stm32f10x_hd\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\output\stm32f10x_hd\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\output\stm32f10x_hd\mbutils.o: ..\Src\modbus\port\port.h
+..\output\stm32f10x_hd\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\output\stm32f10x_hd\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\output\stm32f10x_hd\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\stm32f10x_hd\mbutils.o: ..\Src\modbus\include\mb.h
+..\output\stm32f10x_hd\mbutils.o: ..\Src\modbus\include\mbport.h
+..\output\stm32f10x_hd\mbutils.o: ..\Src\modbus\include\mbproto.h

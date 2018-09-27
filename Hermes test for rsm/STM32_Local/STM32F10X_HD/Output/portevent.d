@@ -1,0 +1,9 @@
+..\output\portevent.o: ..\Src\modbus\port\portevent.c
+..\output\portevent.o: ..\Src\modbus\include\mb.h
+..\output\portevent.o: ..\Src\modbus\port\port.h
+..\output\portevent.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\output\portevent.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\output\portevent.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\portevent.o: ..\Src\modbus\include\mbport.h
+..\output\portevent.o: ..\Src\modbus\include\mbproto.h
+..\output\portevent.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
