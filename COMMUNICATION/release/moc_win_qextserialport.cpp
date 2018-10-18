@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../win_qextserialport.h"
+#include "../../../../git_demo/COMMUNICATION/win_qextserialport.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'win_qextserialport.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63

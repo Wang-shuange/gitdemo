@@ -19,6 +19,7 @@
 #include <QtGui/QLabel>
 #include <QtGui/QLineEdit>
 #include <QtGui/QMainWindow>
+#include <QtGui/QMenu>
 #include <QtGui/QMenuBar>
 #include <QtGui/QProgressBar>
 #include <QtGui/QPushButton>
@@ -34,6 +35,7 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
+    QAction *actionAbout;
     QWidget *centralWidget;
     QGridLayout *gridLayout;
     QGroupBox *groupBox_2;
@@ -62,6 +64,7 @@ public:
     QLabel *label_7;
     QLineEdit *resp_to_lineEdit;
     QMenuBar *menuBar;
+    QMenu *menu;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
 
@@ -70,6 +73,8 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(821, 546);
+        actionAbout = new QAction(MainWindow);
+        actionAbout->setObjectName(QString::fromUtf8("actionAbout"));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         gridLayout = new QGridLayout(centralWidget);
@@ -245,6 +250,8 @@ public:
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 821, 23));
+        menu = new QMenu(menuBar);
+        menu->setObjectName(QString::fromUtf8("menu"));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -252,6 +259,9 @@ public:
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName(QString::fromUtf8("statusBar"));
         MainWindow->setStatusBar(statusBar);
+
+        menuBar->addAction(menu->menuAction());
+        menu->addAction(actionAbout);
 
         retranslateUi(MainWindow);
 
@@ -261,6 +271,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0, QApplication::UnicodeUTF8));
+        actionAbout->setText(QApplication::translate("MainWindow", "About", 0, QApplication::UnicodeUTF8));
         groupBox_2->setTitle(QApplication::translate("MainWindow", "\346\265\213\350\257\225LOG", 0, QApplication::UnicodeUTF8));
         groupBox_3->setTitle(QApplication::translate("MainWindow", "\346\265\213\350\257\225\347\273\223\346\236\234", 0, QApplication::UnicodeUTF8));
         result_label->setText(QApplication::translate("MainWindow", "\346\265\213\350\257\225\347\273\223\346\236\234", 0, QApplication::UnicodeUTF8));
@@ -284,7 +295,7 @@ public:
 #endif // QT_NO_TOOLTIP
         start_pushButton->setText(QApplication::translate("MainWindow", "\345\274\200\345\247\213\346\265\213\350\257\225", 0, QApplication::UnicodeUTF8));
         label_3->setText(QApplication::translate("MainWindow", "\350\256\276\345\244\207\345\234\260\345\235\200\357\274\232", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("MainWindow", "Port Name", 0, QApplication::UnicodeUTF8));
+        label->setText(QApplication::translate("MainWindow", "\344\270\262\345\217\243\345\217\267\357\274\232", 0, QApplication::UnicodeUTF8));
         label_4->setText(QApplication::translate("MainWindow", "\346\234\215\345\212\241\345\231\250IP:", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_WHATSTHIS
         srv_port_lineEdit->setWhatsThis(QApplication::translate("MainWindow", "<html><head/><body><p>\344\273\245\345\244\252\347\275\221\346\265\213\350\257\225\344\275\277\347\224\250\347\232\204\346\234\215\345\212\241\345\231\250\347\253\257\345\217\243\345\217\267</p></body></html>", 0, QApplication::UnicodeUTF8));
@@ -302,6 +313,7 @@ public:
         SN_lineEdit->setToolTip(QApplication::translate("MainWindow", "<html><head/><body><p>Hermes ID</p></body></html>", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
         label_7->setText(QApplication::translate("MainWindow", "\345\223\215\345\272\224\350\266\205\346\227\266\350\256\276\347\275\256\357\274\232", 0, QApplication::UnicodeUTF8));
+        menu->setTitle(QApplication::translate("MainWindow", "\345\270\256\345\212\251", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

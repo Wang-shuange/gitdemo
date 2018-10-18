@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../mainwindow.h"
+#include "F:/COMMUNICATION/mainwindow.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'mainwindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
@@ -22,7 +22,7 @@ static const uint qt_meta_data_MainWindow[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       7,   14, // methods
+       9,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -32,11 +32,13 @@ static const uint qt_meta_data_MainWindow[] = {
  // slots: signature, parameters, type, tag, flags
       12,   11,   11,   11, 0x08,
       24,   11,   11,   11, 0x08,
-      54,   11,   11,   11, 0x08,
-      81,   11,   11,   11, 0x0a,
-      98,   11,   11,   11, 0x0a,
-     120,   11,   11,   11, 0x0a,
-     143,   11,   11,   11, 0x0a,
+      54,   11,   11,   11, 0x0a,
+      67,   11,   11,   11, 0x0a,
+      84,   11,   11,   11, 0x0a,
+     106,   11,   11,   11, 0x0a,
+     129,   11,   11,   11, 0x0a,
+     141,   11,   11,   11, 0x0a,
+     157,   11,   11,   11, 0x0a,
 
        0        // eod
 };
@@ -44,9 +46,10 @@ static const uint qt_meta_data_MainWindow[] = {
 static const char qt_meta_stringdata_MainWindow[] = {
     "MainWindow\0\0readMyCom()\0"
     "on_start_pushButton_clicked()\0"
-    "on_actionAbout_triggered()\0ServerReadData()\0"
+    "doTcpQuery()\0ServerReadData()\0"
     "ServerNewConnection()\0sServerDisConnection()\0"
-    "getPadIds()\0"
+    "getPadIds()\0connectNotify()\0"
+    "DisconnectNotify()\0"
 };
 
 void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -57,11 +60,13 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->readMyCom(); break;
         case 1: _t->on_start_pushButton_clicked(); break;
-        case 2: _t->on_actionAbout_triggered(); break;
+        case 2: _t->doTcpQuery(); break;
         case 3: _t->ServerReadData(); break;
         case 4: _t->ServerNewConnection(); break;
         case 5: _t->sServerDisConnection(); break;
         case 6: _t->getPadIds(); break;
+        case 7: _t->connectNotify(); break;
+        case 8: _t->DisconnectNotify(); break;
         default: ;
         }
     }
@@ -100,9 +105,9 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 9)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 9;
     }
     return _id;
 }
